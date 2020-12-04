@@ -5,11 +5,15 @@ dig = input("Enter any digits: ")
 
 bigest = 0
 i = 0
+digits = int(dig)
 
 while i < len(dig):
-    for each in dig:
-        if int(each) > bigest:
-            bigest = int(each)
+
+    j = digits % 10
+    digits = digits // 10
+
+    if bigest < j:
+        bigest = j
 
     i = i + 1
 
