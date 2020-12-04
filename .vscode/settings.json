@@ -1,3 +1,5 @@
 {
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.pythonPath": "/bin/python",
+    "python.linting.pylintEnabled": true
 }
