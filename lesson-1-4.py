@@ -2,7 +2,6 @@
 # Find the bigest digint in input
 
 dig = input("Enter any digits: ")
-
 bigest = 0
 i = 0
 digits = int(dig)
