@@ -9,6 +9,7 @@ digits = int(dig)
 while i < len(dig):
 
     j = digits % 10
+
     digits = digits // 10
 
     if bigest < j:
