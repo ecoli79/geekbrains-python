@@ -3,5 +3,5 @@
 
 my_str = input("Введите несколько слов с клавиатуры разделяя их пробелами: ")
 
-for ind, el in enumerate(my_str.split()):
+for ind, el in enumerate(my_str.split(), 1):
     print(ind, el[0:10])
