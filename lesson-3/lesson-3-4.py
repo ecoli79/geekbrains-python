@@ -28,5 +28,6 @@ try:
             print(f"Результат выполнения по формуле x**y {my_func_dif(x, y)}")
             print(f"Результат выполнения через цикл {my_func_simple(x, y)}")
 
+
 except Exception as err:
     print(err)

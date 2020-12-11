@@ -1,6 +1,7 @@
 # lesson 3 example 5
 # working with function
 
+
 def summary_digits(input_string):
     """Суммирование чисел полученных в параметрах функции"""
 

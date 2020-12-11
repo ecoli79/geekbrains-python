@@ -1,7 +1,6 @@
 # lesson-3 example 1
 # working with fanctions
 
-
 def division_digits(dig1, dig2):
     """devision to digitals"""
 

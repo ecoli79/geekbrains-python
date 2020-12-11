@@ -1,6 +1,7 @@
 # lesson 3 example 6
 # working with function and agruments
 
+
 def int_func(my_str):
     """Function for working string"""
 

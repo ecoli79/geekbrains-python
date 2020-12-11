@@ -1,6 +1,7 @@
 # lesson-3 example 2
 # working with fanction and agruments
 
+
 def chech_person(person_name, person_surname, person_birthdate, city_of_life, email, phone_number):
     """Function check person info
 
