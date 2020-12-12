@@ -16,12 +16,15 @@ while True:
     input_data = input(
         "Введите несколько чисел через запятую для выхода из программы наберите Q: ").upper()
 
-    if "Q" not in input_data:
-        summ += summary_digits(input_data)
+    try:
+        if "Q" not in input_data:
+            summ += summary_digits(input_data)
+            print(f"Сумма введенных чисел равна: {summ}")
 
-        print(f"Сумма введенных чисел равна: {summ}")
+        else:
+            summ += summary_digits(input_data.replace("Q", ""))
+            print(f"Сумма введенных чисел равна: {summ}")
+            break
 
-    else:
-        summ += summary_digits(input_data.replace("Q", ""))
-        print(f"Сумма введенных чисел равна: {summ}")
-        break
+    except:
+        print("Вы ввели не правильные данные!")
