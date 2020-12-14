@@ -6,6 +6,7 @@ cost = 0
 rent = 0
 cash_tmp = input("""Для расчета показателей работы вашей фирмы
 введите общую сумму выручки за последний месяц: """)
+ 
 
 if cash_tmp.isdigit:
     cashflow = int(cash_tmp)
