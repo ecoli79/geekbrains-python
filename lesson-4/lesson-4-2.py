@@ -1,7 +1,7 @@
 # lesson-4 example 2
 # working with generators
 
-my_list = [12, 14, 45, 65, 23, 85, 102, 228, 12, 22, 43]
-new_list = [el for el in my_list if el > my_list[my_list.index(el) - 1]]
+my_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+new_list = [el for el in my_list[1:] if el > my_list[my_list.index(el) - 1]]
 
 print(new_list)
