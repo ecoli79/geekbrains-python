@@ -11,16 +11,17 @@ try:
 
     sum_cashes = []
     sum_costs = []
+    avarage_profits = []
     for line in data_input:
         firms.append({line.split()[0]: int(
             line.split()[2]) - int(line.split()[3])})
 
         sum_cashes.append(int(line.split()[2]))
         sum_costs.append(int(line.split()[3]))
-        avarage_profit = (sum(sum_cashes) // len(firms)) - \
-            (sum(sum_costs) // len(firms))
+        avarage_profits.append(int(line.split()[2]) - int(line.split()[3]))
 
-    firms.append({"Средняя_доходность": avarage_profit})
+    firms.append(
+        {"Средняя_доходность": round(sum(avarage_profits) / len(avarage_profits))})
     print(firms)
 
     with open("firms.json", "w", encoding="utf-8") as output_data:
