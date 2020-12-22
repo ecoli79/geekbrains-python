@@ -1,5 +1,5 @@
 # lesson-6 examaple 2
-# working with class initialization class
+# working with class initialization class new commit
 
 class Road():
     """

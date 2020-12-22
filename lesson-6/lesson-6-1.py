@@ -1,5 +1,5 @@
 # lesson 6 example 1
-# working with classes
+# working with classes new commit
 
 # colorama import для выделения цветом текста в консоли python
 

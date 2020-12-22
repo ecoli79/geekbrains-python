@@ -1,5 +1,5 @@
 # lesson-6 example 5
-# working with classes
+# working with classes new commit
 
 class Stationery():
 

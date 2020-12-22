@@ -1,5 +1,5 @@
 # lesson-6 example 3
-# working with class
+# working with class new commit
 
 class Worker():
 
