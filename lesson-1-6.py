@@ -1,7 +1,6 @@
 # Lesson-1 example 6
 # working with cycles
 
-
 start_result = int(input("Введите начальный результат спортсмена в км.: "))
 end_result = int(
     input("Введите цель, конечный результат для достижения в км.: "))
