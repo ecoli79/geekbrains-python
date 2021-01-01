@@ -1,5 +1,5 @@
 # Lesson-1 example 1
-# working with parameters
+# working with parameters and strings
 
 name = input("Enter your name: ")
 age = int(input("How old are you?: "))
